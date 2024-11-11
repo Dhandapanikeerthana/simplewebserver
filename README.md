@@ -21,6 +21,7 @@ Serving the HTML pages.
 Testing the webserver.
 
 ## PROGRAM:
+```
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 
@@ -53,6 +54,7 @@ httpd.serve_forever()<h2 align="center"> D Keerthana</h2>
           <li>Device ID	72061A66-1ACE-464E-8F25-30AD34620461</li>
           <li>Product ID	00356-24670-67969-AAOEM</li>
           <li>
+          ```
 
 
 
